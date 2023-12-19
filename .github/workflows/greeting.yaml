@@ -1,0 +1,10 @@
+name: Hello
+
+on: push
+jobs:
+  Hello:
+    runs-on: ubunti-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name : print Hello
+    - run : echo "hello mina"
